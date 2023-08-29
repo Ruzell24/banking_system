@@ -9,9 +9,10 @@
 class Bank {
 private:
     void userBankAction(int actionId , User &user);
-    void performWithdrawal();
+    void performWithdrawal(User &user);
     void performBalanceInquiry(User &user);
-    void performExist();
+    void performExit();
+    void performOtherActions(User &user);
 
 public:
     void executeBankAction(User &user);

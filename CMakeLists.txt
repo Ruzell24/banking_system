@@ -9,4 +9,7 @@ add_executable(banking_system src/main.cpp
         include/Bank/Bank.h
         include/Bank/controller/userBankAction.cpp
         include/Bank/controller/executeBankAction.cpp
-        include/Bank/utilities/performBalanceInquiry.cpp)
+        include/Bank/utilities/performBalanceInquiry.cpp
+        include/Bank/utilities/performWithdraw.cpp
+        include/Bank/utilities/performExit.cpp
+        include/Bank/utilities/performOtherAction.cpp)

@@ -9,4 +9,5 @@ using namespace std;
 void Bank::performBalanceInquiry(User &user) {
 
     cout << "Current Balance of user " << user.getUserDetails().userName << " is " << user.getCurrentBalance() << endl;
+    performOtherActions(user);
 }
