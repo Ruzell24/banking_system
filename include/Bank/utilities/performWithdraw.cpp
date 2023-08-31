@@ -11,7 +11,7 @@
 using namespace std;
 
 void Bank::performWithdrawal(User &user) {
-    int withdrawAmount;
+    int withdrawAmount {};
     int currentBalance = user.getCurrentBalance();
 
     cout << "How much money you want to withdraw?";

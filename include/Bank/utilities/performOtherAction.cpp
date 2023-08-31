@@ -7,7 +7,7 @@
 using namespace std;
 
 void Bank::performOtherActions(User &user) {
-    bool otherUserAction;
+    bool otherUserAction {};
 
     cout << "Do you want to exit - Yes or No?" << endl;
     cout << "1 - Yes" << endl;

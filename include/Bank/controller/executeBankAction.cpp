@@ -5,7 +5,7 @@
 using namespace std;
 
 void Bank::executeBankAction(User &user) {
-    int actionId;
+    int actionId {};
 
     cout << "Actions Available: " << endl;
     cout << "1 - Balance Inquiry" << endl;
